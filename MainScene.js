@@ -119,7 +119,7 @@ export default class MainScene extends Phaser.Scene {
 
         // プレイヤーを初期化（グリッド座標 (20, 20) に配置）
         const playerBaseGridX = 12;
-        const playerBaseGridY = 10;
+        const playerBaseGridY = 249;
         this.player = new Player(this, playerBaseGridX, playerBaseGridY, this.collisionPositions, GRID_SIZE);
 
         // カメラ設定

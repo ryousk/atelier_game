@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center;     /* 縦方向の中央揃え */
+    height: 100vh;           /* ビューポート全体の高さを確保 */
+    overflow: hidden;        /* スクロールを防ぐ */
+}
+
+#game-container {
+    width: 100vw;            /* ビューポート全体の幅を確保 */
+    height: 80vh;            /* ゲーム画面が収まる高さ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.control-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin: 5px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.control-btn:active {
+    background-color: #aaa;
+}

@@ -1,3 +1,10 @@
+/*
+ * This project uses Phaser.js.
+ * Copyright (c) 2013-2023 Photon Storm Ltd.
+ * Licensed under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
 import Player from './Player.js';
 import NPC from './NPC.js';
 import GameClearScene from './GameClearScene.js';
@@ -44,12 +51,12 @@ export default class MainScene extends Phaser.Scene {
             { x: 5, y: 120, texture: 'Radio', dialogue: "ルーザーガール\r\nレガシー\r\n空色パズルピース\r\nレイ\r\nオーバーセンシティブ\r\n朝露草\r\nReplica\r\nポイポイパッ"},
             { x: 5, y: 85, texture: 'Radio', dialogue: "わたしとばけもの\r\n光になって\r\nキャンディタフト"},
             { x: 5, y: 50, texture: 'Radio', dialogue: "メンションガール\r\n世界犯\r\nぼっち\r\nダウター\r\nHeroism\r\nBye my summer\r\nプロテア"},
-            { x: 5, y: 15, texture: 'Radio', dialogue: "マイクレイジー\r\nHeroine hour\r\nSummer Echoes\r\n???"},
+            { x: 5, y: 15, texture: 'Radio', dialogue: "マイクレイジー\r\nHeroine hour\r\nSummer Echoes"},
 
             { x: 20, y: 240, texture: 'Azusa', dialogue: "真っ白なキャンバスの\r\n小野寺梓です。\r\nうまい棒食べ放題のカラオケで\r\n元取りたい！" },
             { x: 5, y: 243, texture: 'Ema', dialogue: "真っ白なキャンバスの\r\n鈴木えまです。\r\n大好きなのは(はいせーの)\r\nひまわりのたね(俺もー！)" },
             { x: 9, y: 240, texture: 'Hikaru', dialogue: "真っ白なキャンバスの\r\n麦田ひかるです。\r\nよろしくお願いします。" },
-            { x: 19, y: 230, texture: 'Nanako', dialogue: "真っ白なキャンバス2期生の\r\n三浦菜々子です。\r\nピュリッピンピャピャミンです。" },
+            { x: 19, y: 230, texture: 'Nanako', dialogue: "真っ白なキャンバス2期生の\r\n三浦菜々子です。\r\n私にできること、精一杯頑張っていくので\r\nよろしくお願いします。" },
 
             { x: 6, y: 203, texture: 'Azusa', dialogue: "メインステージに立つのが\r\n当たり前のようなグループになりたいです。" },
             { x: 5, y: 208, texture: 'Ema', dialogue: "去年に比べて来てくれる人が増えて\r\nとても嬉しいです。" },

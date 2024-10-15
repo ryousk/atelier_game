@@ -1,3 +1,10 @@
+/*
+ * This project uses Phaser.js.
+ * Copyright (c) 2013-2023 Photon Storm Ltd.
+ * Licensed under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
 import MainScene from './MainScene.js';
 import GameClearScene from './GameClearScene.js';
 
